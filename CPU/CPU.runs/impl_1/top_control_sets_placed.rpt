@@ -1,0 +1,123 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Sun Nov 19 17:51:26 2017
+| Host         : DESKTOP-3BPKRQB running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
+| Design       : top
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------+-------+
+|                               Status                              | Count |
++-------------------------------------------------------------------+-------+
+| Number of unique control sets                                     |    70 |
+| Minimum Number of register sites lost to control set restrictions |    16 |
++-------------------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              41 |           38 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              39 |           11 |
+| Yes          | No                    | No                     |             512 |          343 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               8 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++-----------------+-------------------------------------+------------------+------------------+----------------+
+|   Clock Signal  |            Enable Signal            | Set/Reset Signal | Slice Load Count | Bel Load Count |
++-----------------+-------------------------------------+------------------+------------------+----------------+
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[62][0][0]   |                  |                3 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[0][0][0]    |                  |                6 |              8 |
+|  CLK_BUFG       | Ins_Mem_inst/IAddrOut_reg_reg[7]_7  | clk/q_reg[0]_0   |                3 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[9][0][0]    |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[8][0][0]    |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[7][0][0]    |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[6][0][0]    |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[63][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[54][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[60][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[5][0]_3[0]  |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[59][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[58][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[57][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[56][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[55][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/E[0]                   |                  |                2 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[53][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[52][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[51][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[50][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[4][0][0]    |                  |                8 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[49][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[48][0]_3[0] |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[47][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[46][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[45][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[44][0][0]   |                  |                2 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[43][0][0]   |                  |                3 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[42][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[41][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[40][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[3][0][0]    |                  |                3 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[39][0][0]   |                  |                3 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[38][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[37][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[36][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[35][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[34][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[33][0][0]   |                  |                8 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[32][0]_2[0] |                  |                8 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[31][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[30][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[2][0][0]    |                  |                8 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[29][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[28][0][0]   |                  |                8 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[27][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[26][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[25][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[24][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[23][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[22][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[21][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[20][0][0]   |                  |                5 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[1][0][0]    |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[19][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[18][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[17][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[16][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[15][0][0]   |                  |                4 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[14][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[13][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[12][0][0]   |                  |                7 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[11][0][0]   |                  |                6 |              8 |
+| ~CLK_BUFG       | Ins_Mem_inst/memory_reg[10][0][0]   |                  |                6 |              8 |
+|  clk/CLK        |                                     |                  |                6 |              9 |
+|  mclk_IBUF_BUFG |                                     | clk/q_reg[0]_0   |                5 |             19 |
+|  clk/CLK        |                                     | avshake/change   |                6 |             20 |
+|  InsMemRW_BUFG  |                                     |                  |               32 |             32 |
+| ~CLK_BUFG       | Ins_Mem_inst/p_0_in__0              |                  |               12 |             96 |
++-----------------+-------------------------------------+------------------+------------------+----------------+
+
+
